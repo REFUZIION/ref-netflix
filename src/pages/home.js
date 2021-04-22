@@ -22,7 +22,7 @@ export default function Home() {
             </OptForm.Text>
             <OptForm.Break />
             <OptForm.Input placeholder="Email adress" />
-            <OptForm.Button>Get Started</OptForm.Button>
+            <OptForm.Button to="/signup">Get Started</OptForm.Button>
           </OptForm>
           </Feature>
         </HeaderContainer>
